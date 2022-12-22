@@ -1,0 +1,330 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+img{
+	width: 100%;
+}
+
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+               header section
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+.section{
+	background: url(img/1.png);
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+	padding: 25px 0;
+}
+.main-section-1{
+	width: 180px;
+	height: 50px;
+}
+
+
+.main-section-2 ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+}
+.main-section-2 ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	padding: 10px;
+	color: #fff;
+}
+span i{
+	color: #fff;
+	font-size: 25px;
+	position: absolute;
+	right: 10%;
+	top: 40px;
+	display: none;
+
+}
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+             .we-design-section
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+
+
+.we-design-section{
+	margin: 70px auto;
+}
+.we-design-section h1{
+	text-align: center;
+	font-size: 60px;
+	font-weight:900;
+	color: #fff;
+}
+.we-design-section h5{
+	text-align: center;
+	font-size: 26px;
+	font-weight:400;
+	color: #fff;
+}
+
+.portfolio{
+	margin-top: 100px;
+	margin-left: 500px;
+}
+
+button{
+	color: #fff;
+	padding: 10px;
+	border-color: #fff;
+	background: transparent;
+	display: block;
+	
+
+}
+.portfolio button{
+	position: absolute;
+
+}
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+             .design-agency
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+.featured-works-section{
+	background: #c1c6d2;
+	padding: 0 0 70px;
+}
+
+.design-agency{
+	padding: 100px 0;
+}
+.design-agency h1{
+	font-size: 40px;
+	font-weight: 900;
+	padding-bottom: 30px ;
+	padding-top: 60px;
+}
+.design-agency p{
+	padding-top: 30px;
+	font-size: 20px;
+}
+
+.Creating-amazing{}
+.Creating-amazing h3{
+	font-size: 32px;
+	font-weight: 900;
+}
+
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+                featured-works
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+
+.featured-works{
+	width: 100%;
+}
+.featured-works-1{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	height: auto;
+}
+.featured-works-1 h1{
+	padding-bottom: 20px 0;
+}
+.featured-works-2{
+	padding: 20px 0;
+	
+}
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+                  section-4   
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+
+.section-4{
+	padding-bottom: 40px;
+}
+.section-4 h3{
+	font-size: 32px;
+	font-weight: 500;
+}
+.section-4 p{}
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+                   section-3  
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+.design-agency-section{
+	background: #c2c8d1;
+}
+.section-3{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+                  company  
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+.company{
+	width: 100%;
+	height: 204px;
+	background: #000000;
+}
+.company h3{
+	text-align: center;
+	padding-top: 100px;
+	color: #fff;
+}
+
+.adipiscing{
+	width: 100%;
+	height: 375px;
+	background: #0000ff;
+}
+.adipiscing p{
+	padding-top: 100px;
+	padding-left: 50px;
+}
+
+.adipiscing h3{
+	padding-left: 50px;
+}
+
+.img{
+	width: 80%;
+	margin: 30px auto;
+}
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+                 product-successful company  
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+.product-successful{
+	padding-top: 50px;
+}
+.product-successful-1{}
+.contact{
+	padding: 20px;
+}
+.contact-1 i{
+	font-size: 20px;
+}
+.input-name input{
+	font-size: 25px;
+}
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+                   business
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+.business{
+	margin: 0 auto  100px;
+}
+
+.business-1{
+	background: url(img/11.png);
+	background-size: cover;
+	background-position: center;
+	width: 430px;
+	height: 300px;
+}
+.business-1 h3{
+	text-align: center;
+	padding: 80px 0;
+	font-weight: 900;
+	font-size: 25px;
+}
+.business-2{
+	background: url(img/12.png);
+	width: 430px;
+	height: 300px;
+
+}
+.business-2 h3{
+	text-align: center;
+	padding: 80px 0;
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.business-3{
+	background: url(img/13.png);
+	width: 430px;
+	height: 300px;
+}
+.business-3 h3{
+	text-align: center;
+	font-weight: 900;
+	padding: 80px 0;
+	font-size: 25px;
+}
+
+
+.services-section{
+	background: #c1c6d2;
+	padding: 100px 0;
+}
+
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+                  .Office-Address
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+
+.Office-Address{
+	background: #000;
+	color: #fff;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.Office-Address p{
+	font-size: 16px;
+}
+
+/*<!-- =--=-=-=-=-=-=-=-=-=-=-==--=-=-==-=-=-==-=-=-=
+                   .fotter-menu
+=-=-=-=-=--=-==--==-=-=-=-=-=-==-=-==-=-=--==-=-= -->*/
+
+.fotter-menu-2{
+    background: #fff;
+    padding: 20px 50px;
+}
+.fotter-menu ul{
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.fotter-menu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 10px;
+	display: block;
+	color: #000;
+}
+.fotter-menu{
+	padding: 0 200px;
+	
+
+}
+
+.fotter-menu p{
+	text-align: center;
+}
